@@ -19,8 +19,8 @@ function App() {
        <Router>
     <div className="App">
       <Home/>
-      <TransitionGroup>
-<CSSTransition timeout={300} classNames='fade'>
+      {/* <TransitionGroup>
+<CSSTransition timeout={300} classNames='fade'> */}
     <Switch>
        
             <Route exact path='/' component={Home} />
@@ -30,8 +30,8 @@ function App() {
             
       
     </Switch>
-    </CSSTransition>
-    </TransitionGroup>
+    {/* </CSSTransition>
+    </TransitionGroup> */}
     </div>
 </Router>
   );
