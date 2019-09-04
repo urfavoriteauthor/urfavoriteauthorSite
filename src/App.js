@@ -18,6 +18,7 @@ function App() {
   return (
        <Router>
     <div className="App">
+      <Home/>
       <TransitionGroup>
 <CSSTransition timeout={300} classNames='fade'>
     <Switch>
