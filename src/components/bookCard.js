@@ -7,10 +7,10 @@ const Bookscard = props => {
             <div className='overflow'>
                 <img src={props.imgsrc} alt="" className='card-img-top' />
             </div>
-            <div className='card-body text-dark'>
+            <div className='card-body bg-dark text-light'>
                 <h4 className='card-title'>{props.title}</h4>
-                <p className="card-text text-secondary">{props.description}</p>
-            <a href="#" className='btn btn-outline-success'>Purchase Here</a>
+                <p className="card-text text-light">{props.description}</p>
+            <a href={props.link} className='btn btn-outline-danger'>Purchase Here</a>
             </div>
         </div>
     )

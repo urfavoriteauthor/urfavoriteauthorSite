@@ -9,6 +9,7 @@ class Books extends React.Component{
         return(
             <div id="books">
                 <Navbar/>
+                <h3>There is absolutely a story here for everyone. Whether you're a fan of Sci-Fi, Horror, Thriller's, or Romance; I'm confident I've got a story that resonates with you!</h3>
                 <Cards/>
                 <br></br>
                 <Social/>
