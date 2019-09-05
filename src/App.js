@@ -16,6 +16,7 @@ import {
 
 function App() {
   return (
+      document.title="URFAVORITEAUTHOR"
        <Router>
     <div className="App">
       {/* <TransitionGroup>
