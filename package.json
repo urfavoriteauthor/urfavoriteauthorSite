@@ -11,7 +11,7 @@
     "react-scripts": "3.0.1",
     "react-transition-group": "^4.2.2"
   },
-  "homepage": "https://urfavoriteauthor.github.io/urfavoriteauthorSite/",
+  "homepage": "https://www.nmporterfield.com",
   "scripts": {
     "predeploy":"npm run build",
     "deploy":"gh-pages -d build",
