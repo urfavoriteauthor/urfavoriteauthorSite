@@ -259,7 +259,7 @@ h3{
   }
 }
 
-@media only screen and (max-width:786px){
+@media only screen and (max-width:880px){
   #navbar{
     background-color: black;
   }
@@ -271,6 +271,51 @@ h3{
   .card{
     width: 100%;
   }
+  #featured{
+    width: 100%;
+  }
+ 
+  #social{
+    width: 100%;
+  }
+  #social img{
+    display: none;
+  
+  }
+  #social li{
+    width: 100%;
+    display: flex;
+    font-size: 12px;
+  }
+  #instagram{
+    width:5px;
+  }
+  #anchor{
+    width: 100%;
+  }
+  #twitch{
+    width: 100%;
+  }
+  h3{
+    background-color: black;
+    color: white;
+  }
+}
+
+@media only screen and (max-width:900px){
+  #navbar{
+    background-color: black;
+  }
+  #navbar li{
+    width: 100%;
+    font-size: 24px;
+    color: white;
+  }
+  .card{
+    width:100%;
+  }
+
+
   #featured{
     width: 100%;
   }
