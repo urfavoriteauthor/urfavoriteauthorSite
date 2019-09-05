@@ -15,9 +15,9 @@ import {
 
 
 function App() {
+  document.title="URFAVORITEAUTHOR"
   return (
-      document.title="URFAVORITEAUTHOR"
-       <Router>
+    <Router>
     <div className="App">
       {/* <TransitionGroup>
 <CSSTransition timeout={300} classNames='fade'> */}
