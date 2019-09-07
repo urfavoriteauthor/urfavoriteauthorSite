@@ -33,7 +33,7 @@ alert("Not available")
 
     render() {
         return (
-            <div className='div'>
+            <div className='cards'>
             
             <div className="container-fluid d-flex content-justify-center">
                 <div className='row'>
