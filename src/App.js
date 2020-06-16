@@ -7,6 +7,7 @@ import Books from './pages/books'
 import Navbar from './components/navbar'
 import Comics from './pages/comics'
 import Extra from './pages/extra'
+
 import {BrowserRouter as Router,Link,Switch,Route} from 'react-router-dom';
 import {
   CSSTransition,
