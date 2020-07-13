@@ -14,7 +14,7 @@ class Social extends React.Component {
                         <a href='https://www.instagram.com/urfavoriteauthor/' target="_blank"><li id='instagram'><img src={Instagram} alt='' width='50px' />Instagram</li></a>
                         <a href='https://twitter.com/URxFAVxAUTHOR' target="_blank"><li id='twitter'><img src={Twitter} alt='' width='50px' />Twitter</li></a>
                         <a href='https://www.patreon.com/Urfavoriteauthor' target='_blank'><li id='patreon'><img src={Patreon} alt='' width='100px' />Patreon</li></a>
-                        <a href='http://resonate-publishing.com/' target='_blank'> <p className='muted'>RZN Print and Publishing~N.M. Porterfield</p>></a>
+                        <a href='http://resonate-publishing.com/' target='_blank'> <li className='muted'>RZN Print and Publishing~N.M. Porterfield</li></a>
                     </ul>
                 </div>
             </nav>

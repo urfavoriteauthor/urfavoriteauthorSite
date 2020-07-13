@@ -35,6 +35,7 @@ class Home extends React.Component {
                     <br></br>
                 </div>
 <Social />
+    
             </div>
 
         )

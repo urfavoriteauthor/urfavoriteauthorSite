@@ -35,10 +35,10 @@ class Extra extends React.Component {
                                         <img src={Urfavoriteauthor} alt="" className='card-img-top' />
                                     </div>
                                     <div className='card-body text-dark'>
-                                        <iframe id="twitch" src="https://player.twitch.tv/?channel=urfavoriteauthor" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe><a href="https://www.twitch.tv/urfavoriteauthor?tt_content=text_link&tt_medium=live_embed">Watch live video from urfavoriteauthor on www.twitch.tv</a>
-                                        <h4 className='card-title'>Urfavoriteauthor Twitch TV</h4>
+                                    <iframe width="560" height="420" src="https://www.youtube.com/embed/SDROvDb5S6I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        <h4 className='card-title'>URxFAVxAUTHOR TV</h4>
                                         <p className="card-text text-secondary">When I'm not writing, this is how I'm unwinding.Think you have what it takes to take me on? My GamerTag is URxFAVxAUTHOR for PS4/XB1</p>
-                                        <a href="https://player.twitch.tv/?channel=urfavoriteauthor" className='btn btn-outline-danger'>Watch Here</a>
+                                        <a href="https://www.youtube.com/channel/UC3uuTIOPBQR32WdhTuikqdw/featured" className='btn btn-outline-danger'>Watch Here</a>
                                     </div>
                                 </div>
 

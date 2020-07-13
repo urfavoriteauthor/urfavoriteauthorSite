@@ -9,33 +9,29 @@ import Comics from './pages/comics'
 import Extra from './pages/extra'
 
 import {BrowserRouter as Router,Link,Switch,Route} from 'react-router-dom';
-import {
-  CSSTransition,
-  TransitionGroup
-} from 'react-transition-group'
 
 
 function App() {
-  document.title="URFAVORITEAUTHOR"
+  // document.title="URFAVORITEAUTHOR"
   return (
+      <div className="App">
     <Router>
-    <div className="App">
-      {/* <TransitionGroup>
-<CSSTransition timeout={300} classNames='fade'> */}
     <Switch>
        
-            <Route exact path='/' component={Home} />
+            <Route exact path='/home'component={Home} />
             <Route path='/books' component={Books} />
             <Route path='/comics' component={Comics} />
             <Route path='/extra' component={Extra} />
             
+                
       
+    <Link to='/home'><a href={Home} id='mainBtn' target='_blank' className='btn btn-light btn-lng btn-block'>ENTER HERE!</a></Link>
     </Switch>
-    {/* </CSSTransition>
-    </TransitionGroup> */}
-    </div>
+    
 </Router>
+    </div>
   );
 }
+
 
 export default App;

@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
 body {
   background-color: black;
-  background-image: url(./assets/images/bookcollage.jpg);
+  background-image: url(./assets/images/author_intro.mp4);
   /* z-index: -1; */
   background-size: 100%;
 
@@ -17,11 +19,30 @@ h3{
 }
 .App {
   text-align: center;
-  padding: 10px;
+  /* padding: 10px; */
+  background-image: url(./assets/images/signature.gif);
+  background-size: cover;
+  height: 100vh;
+  background-repeat: repeat;
 }
 
+#mainBtn{
+  position: absolute;
+  bottom: 0;
+  letter-spacing: 2em;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: x-large;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+#mainBtn:hover{
+font-size: xx-large;
+transition: ease 0.7s;
+}
 #navbar {
   font-size: 32px;
+  font-family: 'Shadows Into Light', cursive;
 }
 
 #home {
@@ -73,8 +94,9 @@ h3{
 }
 
 #navbar li:hover {
-  transform: scale(1.5);
+  transition: ease 0.7s;
   color:red;
+  font-size: 38px;
 }
 
 .social {
@@ -166,7 +188,8 @@ h3{
   transform: scale(1.1);
 }
 
-#twitch {
+#youtube {
+  height: 550px;
   padding: 2px 0px 4px;
   display: block;
   width: 345px;
@@ -177,11 +200,10 @@ h3{
   transition: transform 0.5s ease;
 }
 
-#twitch:hover {
+#youtube:hover {
   transform: scale(1.1);
 }
 
-#extra {}
 
 .App-header {
   background-color: #282c34;
