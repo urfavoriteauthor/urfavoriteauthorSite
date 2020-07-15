@@ -1,6 +1,6 @@
 import React from 'react'
 import Herocity from '../assets/images/herocity.jpg'
-import Golem from '../assets/images/golem.jpg'
+import Golem from '../assets/images/GolemGenesis.JPG'
 import Ghost from '../assets/images/ghost.PNG'
 import Prom from '../assets/images/prom.JPG'
 import Rem from '../assets/images/remmanifest.JPG'

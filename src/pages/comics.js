@@ -8,7 +8,7 @@ class Comics extends React.Component{
         return(
             <div>
             <Navbar/>
-            <h3>Everyone loves a hero, so I decided to create my own. There's nothing more enjoyable than stretching your imagination to create new worlds. Heroes and Villains collide as I tell new stories with new adventures for all ages!</h3>
+            <h3>Everyone loves Heroes, so I decided to create my own. There's nothing more enjoyable than stretching your imagination to create new worlds. Heroes and Villains collide as I tell new stories with new adventures for all ages!</h3>
             <Comiccard/>
 <br></br>
 <Social/>
