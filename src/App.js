@@ -14,7 +14,7 @@ import {BrowserRouter as Router,Link,Switch,Route} from 'react-router-dom';
 function App() {
   // document.title="URFAVORITEAUTHOR"
   return (
-      <div className="App">
+      <div className="App" id='mainpage'> 
     <Router>
     <Switch>
        

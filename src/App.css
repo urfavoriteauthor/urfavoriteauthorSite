@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
+#mainpage{
+  background-image: url(./assets/images/signature.gif);
+  background-size: cover;
+}
+
 body {
   background-color: black;
   background-image: url(./assets/images/bookcollage.jpg);
@@ -43,13 +48,15 @@ transition: ease 0.7s;
 }
 
 #home {
-  /* background-image: url(./assets/images/bookcollage.jpg); opacity: 0.5;z-index: -1; */
+  background-image: url(./assets/images/bookcollage.jpg);
 }
 
-/* #books{
-  background-image: url(./assets/images/bookcollage.jpg); opacity: 0.5;z-index: -1;
-} */
-#comics {}
+#home{
+  background-image: url(./assets/images/bookcollage.jpg);
+}
+#comics {
+  background-image: url(./assets/images/bookcollage.jpg);
+}
 
 #about {
   width: 25rem;
