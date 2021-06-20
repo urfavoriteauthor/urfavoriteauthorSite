@@ -25,7 +25,8 @@ function App() {
             
                 
       
-    <Link to='/home'><a href={Home} id='mainBtn' target='_blank' className='btn btn-light btn-lng btn-block'>ENTER HERE!</a></Link>
+      
+    <Link to='/home'><a href={Home} id='mainBtn' className='btn btn-light btn-lng btn-block'>ENTER HERE!</a></Link>
     </Switch>
     
 </Router>

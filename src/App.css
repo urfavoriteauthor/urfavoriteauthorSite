@@ -30,7 +30,7 @@ h3{
 
 #mainBtn{
   position: absolute;
-  bottom: 0;
+  top: 0;
   letter-spacing: 2em;
   font-family: 'Shadows Into Light', cursive;
   font-size: x-large;
